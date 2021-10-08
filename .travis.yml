@@ -3,6 +3,9 @@ solution: ICT3101_Calculator.sln
 dotnet: 3.1
 mono: none
 
+install:
+  - echo $TRAVIS_BUILD_DIR/
+
 script:
   - dotnet restore #this will restore are settings and get all our NuGet packages
   - dotnet test #this will run all our tests
