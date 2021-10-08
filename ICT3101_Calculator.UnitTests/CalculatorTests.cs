@@ -229,8 +229,8 @@ namespace ICT3101_Calculator.UnitTests
         [TestCase(3)]
         public void GetMagicNumber_WhenGetMagicNumber_ReturnNumberInFile(int p0)
         {
-            IFileReader fileReader = _mockFileReader.Object;
-            string[] numbers = fileReader.Read("MagicNumbers.txt");
+            IFileReader fileReader = new FileReader();
+            string[] numbers = fileReader.Read("../../../MagicNumbers.txt");
 
             if (p0 >= numbers.Length || p0 < 0)
             {
