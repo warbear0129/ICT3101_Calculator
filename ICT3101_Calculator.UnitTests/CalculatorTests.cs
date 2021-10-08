@@ -230,7 +230,7 @@ namespace ICT3101_Calculator.UnitTests
         public void GetMagicNumber_WhenGetMagicNumber_ReturnNumberInFile(int p0)
         {
             IFileReader fileReader = new FileReader();
-            string[] numbers = fileReader.Read("../../../MagicNumbers.txt");
+            string[] numbers = fileReader.Read("../../../../MagicNumbers.txt");
 
             if (p0 >= numbers.Length || p0 < 0)
             {
