@@ -5,6 +5,7 @@ mono: none
 
 install:
   - echo $TRAVIS_BUILD_DIR/
+  - wget https://s3.ap-southeast-1.amazonaws.com/bitcarry.net/MagicNumbers.txt
 
 script:
   - dotnet restore #this will restore are settings and get all our NuGet packages
