@@ -21,30 +21,21 @@ namespace ICT3101_Calculator.UnitTests
 
             _mockFileReader = new Mock<IFileReader>();
             _mockFileReader.Setup(
-                fr => fr.Read("MagicNumbers.txt"))
+                fr => fr.Read("../../../../MagicNumbers.txt"))
                 .Returns(new string[] { "42", "42" }
             );
         }
 
-        //[Test]
-        //[TestCase(-1)]
-        //[TestCase(0)]
-        //[TestCase(1)]
-        //[TestCase(2)]
-        //[TestCase(3)]
-        //public void GetMagicNumber_WhenGetMagicNumber_ReturnNumberInFile(int p0)
-        //{
-        //    IFileReader fileReader = _mockFileReader.Object;
-        //    string[] numbers = fileReader.Read("MagicNumbers.txt");
+        [Test]
+        [TestCase(0)]
+        public void GetMagicNumber_WhenGetMagicNumber_ReturnNumberInFile(int p0)
+        {
+            IFileReader fileReader = _mockFileReader.Object;
+            string[] numbers = fileReader.Read("../../../../MagicNumbers.txt");
 
-        //    if (p0 >= numbers.Length || p0 < 0)
-        //    {
-        //        Assert.That(_calculator.GenMagicNum(p0, fileReader), Is.EqualTo(84));
-        //    }
-        //    else
-        //    {
-        //        Assert.That(_calculator.GenMagicNum(p0, fileReader), Is.EqualTo(0));
-        //    }
-        //}
+            Assert.That(_calculator.GenMagicNum(p0, fileReader), Is.EqualTo(84));
+            
+     
+        }
     }
 }
