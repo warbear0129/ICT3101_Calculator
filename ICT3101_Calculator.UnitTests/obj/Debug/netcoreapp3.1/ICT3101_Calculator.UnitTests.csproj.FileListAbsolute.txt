@@ -118,11 +118,6 @@ C:\Users\Xin\source\repos\ICT3101_Calculator\ICT3101_Calculator.UnitTests\bin\De
 C:\Users\Xin\source\repos\ICT3101_Calculator\ICT3101_Calculator.UnitTests\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
 C:\Users\Xin\source\repos\ICT3101_Calculator\ICT3101_Calculator.UnitTests\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\bin\Debug\netcoreapp3.1\CoverletSourceRootsMapping
-C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\obj\Debug\netcoreapp3.1\ICT3101_Calculator.UnitTests.csproj.AssemblyReference.cache
-C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\obj\Debug\netcoreapp3.1\ICT3101_Calculator.UnitTests.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\obj\Debug\netcoreapp3.1\ICT3101_Calculator.UnitTests.AssemblyInfoInputs.cache
-C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\obj\Debug\netcoreapp3.1\ICT3101_Calculator.UnitTests.AssemblyInfo.cs
-C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\obj\Debug\netcoreapp3.1\ICT3101_Calculator.UnitTests.csproj.CoreCompileInputs.cache
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\bin\Debug\netcoreapp3.1\testhost.dll
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\bin\Debug\netcoreapp3.1\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\bin\Debug\netcoreapp3.1\ICT3101_Calculator.deps.json
@@ -142,6 +137,7 @@ C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\bin\Debug
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\bin\Debug\netcoreapp3.1\ICT3101_Calculator.UnitTests.dll
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\bin\Debug\netcoreapp3.1\ICT3101_Calculator.UnitTests.pdb
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\bin\Debug\netcoreapp3.1\BoDi.dll
+C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\bin\Debug\netcoreapp3.1\Castle.Core.dll
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\bin\Debug\netcoreapp3.1\Cucumber.Messages.dll
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\bin\Debug\netcoreapp3.1\Gherkin.dll
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
@@ -155,9 +151,11 @@ C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\bin\Debug
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CrossPlatEngine.dll
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.Utilities.dll
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\bin\Debug\netcoreapp3.1\Moq.dll
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\bin\Debug\netcoreapp3.1\nunit.framework.dll
+C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\bin\Debug\netcoreapp3.1\WebDriver.dll
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\bin\Debug\netcoreapp3.1\TechTalk.SpecFlow.dll
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\bin\Debug\netcoreapp3.1\SpecFlow.Internal.Json.dll
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
@@ -232,9 +230,12 @@ C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\bin\Debug
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\bin\Debug\netcoreapp3.1\ICT3101_Calculator.dll
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\bin\Debug\netcoreapp3.1\ICT3101_Calculator.pdb
+C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\obj\Debug\netcoreapp3.1\ICT3101_Calculator.UnitTests.csproj.AssemblyReference.cache
+C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\obj\Debug\netcoreapp3.1\ICT3101_Calculator.UnitTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\obj\Debug\netcoreapp3.1\ICT3101_Calculator.UnitTests.AssemblyInfoInputs.cache
+C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\obj\Debug\netcoreapp3.1\ICT3101_Calculator.UnitTests.AssemblyInfo.cs
+C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\obj\Debug\netcoreapp3.1\ICT3101_Calculator.UnitTests.csproj.CoreCompileInputs.cache
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\obj\Debug\netcoreapp3.1\ICT3101_Calculator.UnitTests.csproj.CopyComplete
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\obj\Debug\netcoreapp3.1\ICT3101_Calculator.UnitTests.dll
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\obj\Debug\netcoreapp3.1\ICT3101_Calculator.UnitTests.pdb
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\obj\Debug\netcoreapp3.1\ICT3101_Calculator.UnitTests.genruntimeconfig.cache
-C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\bin\Debug\netcoreapp3.1\Castle.Core.dll
-C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\bin\Debug\netcoreapp3.1\Moq.dll

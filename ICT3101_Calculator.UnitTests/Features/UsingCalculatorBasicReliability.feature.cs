@@ -117,14 +117,14 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Calculating Average Number of Expected Failure")]
+        [NUnit.Framework.DescriptionAttribute("Calculating Current Failure Intensity with negative values")]
         [NUnit.Framework.CategoryAttribute("Musa")]
-        public virtual void CalculatingAverageNumberOfExpectedFailure()
+        public virtual void CalculatingCurrentFailureIntensityWithNegativeValues()
         {
             string[] tagsOfScenario = new string[] {
                     "Musa"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Calculating Average Number of Expected Failure", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Calculating Current Failure Intensity with negative values", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 12
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -149,10 +149,94 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Given("I have a calculator", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 14
- testRunner.When("I have entered \"10\", \"50\", \"100\" and \"10\" into the calculator and press ANEF", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("I have entered \"-10\", \"50\" and \"100\" into the calculator and press CFI", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 15
+ testRunner.Then("the calculator should show an argument exception", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            }
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Calculating Average Number of Expected Failure with negative values")]
+        [NUnit.Framework.CategoryAttribute("Musa")]
+        public virtual void CalculatingAverageNumberOfExpectedFailureWithNegativeValues()
+        {
+            string[] tagsOfScenario = new string[] {
+                    "Musa"};
+            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Calculating Average Number of Expected Failure with negative values", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+#line 18
+this.ScenarioInitialize(scenarioInfo);
+#line hidden
+            bool isScenarioIgnored = default(bool);
+            bool isFeatureIgnored = default(bool);
+            if ((tagsOfScenario != null))
+            {
+                isScenarioIgnored = tagsOfScenario.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
+            }
+            if ((this._featureTags != null))
+            {
+                isFeatureIgnored = this._featureTags.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
+            }
+            if ((isScenarioIgnored || isFeatureIgnored))
+            {
+                testRunner.SkipScenario();
+            }
+            else
+            {
+                this.ScenarioStart();
+#line 19
+ testRunner.Given("I have a calculator", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
+#line 20
+ testRunner.When("I have entered \"10\", \"50\", \"100\" and \"10\" into the calculator and press ANEF", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 21
  testRunner.Then("the CFI result should be \"63\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            }
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Calculating Average Number of Expected Failure")]
+        [NUnit.Framework.CategoryAttribute("Musa")]
+        public virtual void CalculatingAverageNumberOfExpectedFailure()
+        {
+            string[] tagsOfScenario = new string[] {
+                    "Musa"};
+            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Calculating Average Number of Expected Failure", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+#line 24
+this.ScenarioInitialize(scenarioInfo);
+#line hidden
+            bool isScenarioIgnored = default(bool);
+            bool isFeatureIgnored = default(bool);
+            if ((tagsOfScenario != null))
+            {
+                isScenarioIgnored = tagsOfScenario.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
+            }
+            if ((this._featureTags != null))
+            {
+                isFeatureIgnored = this._featureTags.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
+            }
+            if ((isScenarioIgnored || isFeatureIgnored))
+            {
+                testRunner.SkipScenario();
+            }
+            else
+            {
+                this.ScenarioStart();
+#line 25
+ testRunner.Given("I have a calculator", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
+#line 26
+ testRunner.When("I have entered \"-10\", \"50\", \"100\" and \"10\" into the calculator and press ANEF", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 27
+ testRunner.Then("the calculator should show an argument exception", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

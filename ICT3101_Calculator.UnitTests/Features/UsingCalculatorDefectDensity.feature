@@ -13,3 +13,5 @@ Scenario: Calculating KSSI
 	Given I have a calculator
 	When I have entered "50" and "20" into the calculator and press KSSI
 	Then the KSSI result should be "70"
+
+

@@ -60,6 +60,18 @@
               "target": "Package",
               "version": "[3.17.0, )"
             },
+            "Selenium.Firefox.WebDriver": {
+              "target": "Package",
+              "version": "[0.27.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Selenium.WebDriver.MSEdgeDriver": {
+              "target": "Package",
+              "version": "[95.0.1020.30, )"
+            },
             "SpecFlow": {
               "target": "Package",
               "version": "[3.9.22, )"

@@ -48,12 +48,14 @@ C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator\bin\Debug\netcoreap
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator\bin\Debug\netcoreapp3.1\ICT3101_Calculator.dll
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator\bin\Debug\netcoreapp3.1\ICT3101_Calculator.pdb
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator\bin\Debug\netcoreapp3.1\BoDi.dll
+C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator\bin\Debug\netcoreapp3.1\Castle.Core.dll
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator\bin\Debug\netcoreapp3.1\Cucumber.Messages.dll
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator\bin\Debug\netcoreapp3.1\Gherkin.dll
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator\bin\Debug\netcoreapp3.1\Microsoft.DotNet.InternalAbstractions.dll
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator\bin\Debug\netcoreapp3.1\Moq.dll
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator\bin\Debug\netcoreapp3.1\nunit.framework.dll
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator\bin\Debug\netcoreapp3.1\TechTalk.SpecFlow.dll
@@ -71,6 +73,4 @@ C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator\obj\Debug\netcoreap
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator\obj\Debug\netcoreapp3.1\ICT3101_Calculator.dll
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator\obj\Debug\netcoreapp3.1\ICT3101_Calculator.pdb
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator\obj\Debug\netcoreapp3.1\ICT3101_Calculator.genruntimeconfig.cache
-C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator\bin\Debug\netcoreapp3.1\Castle.Core.dll
-C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator\bin\Debug\netcoreapp3.1\Moq.dll
 C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator\obj\Debug\netcoreapp3.1\ICT3101_Calculator.csproj.AssemblyReference.cache
