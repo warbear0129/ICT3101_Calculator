@@ -35,8 +35,8 @@ namespace ICT3101_Calculator.UnitTests.Features
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "UsingCalculatorDivisons", "\tIn order to conquer divisions \r\n\tAs a division enthusiast\r\n\tI want to understand" +
-                    " a variety of division operations", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "UsingCalculatorDivisons", "\tIn order to conquer divisions \n\tAs a division enthusiast\n\tI want to understand a" +
+                    " variety of division operations", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         

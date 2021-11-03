@@ -35,8 +35,8 @@ namespace ICT3101_Calculator.UnitTests.Features
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "UsingCalculatorAvailability", " In order to calculate MTBF and Availability\r\n As someone who struggles with math" +
-                    "\r\n I want to be able to use my calculator to do this", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "UsingCalculatorAvailability", " In order to calculate MTBF and Availability\n As someone who struggles with math\n" +
+                    " I want to be able to use my calculator to do this", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         

@@ -35,8 +35,8 @@ namespace ICT3101_Calculator.UnitTests.Features
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "UsingCalculatorLogarithmicReliability", " In order to calculate the Logarithmic Musa model\'s failure/intensities\r\n As a st" +
-                    "udent doing ICT3101 lab2.3", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "UsingCalculatorLogarithmicReliability", " In order to calculate the Logarithmic Musa model\'s failure/intensities\n As a stu" +
+                    "dent doing ICT3101 lab2.3", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         

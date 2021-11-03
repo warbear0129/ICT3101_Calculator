@@ -1,35 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Warbe\\OneDrive\\src\\ict3101\\lab02\\ICT3101_Calculator.UnitTests\\ICT3101_Calculator.UnitTests.csproj": {}
+    "/root/lab/ICT3101_Calculator.UnitTests/ICT3101_Calculator.UnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Warbe\\OneDrive\\src\\ict3101\\lab02\\ICT3101_Calculator.UnitTests\\ICT3101_Calculator.UnitTests.csproj": {
+    "/root/lab/ICT3101_Calculator.UnitTests/ICT3101_Calculator.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Warbe\\OneDrive\\src\\ict3101\\lab02\\ICT3101_Calculator.UnitTests\\ICT3101_Calculator.UnitTests.csproj",
+        "projectUniqueName": "/root/lab/ICT3101_Calculator.UnitTests/ICT3101_Calculator.UnitTests.csproj",
         "projectName": "ICT3101_Calculator.UnitTests",
-        "projectPath": "C:\\Users\\Warbe\\OneDrive\\src\\ict3101\\lab02\\ICT3101_Calculator.UnitTests\\ICT3101_Calculator.UnitTests.csproj",
-        "packagesPath": "C:\\Users\\Warbe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Warbe\\OneDrive\\src\\ict3101\\lab02\\ICT3101_Calculator.UnitTests\\obj\\",
+        "projectPath": "/root/lab/ICT3101_Calculator.UnitTests/ICT3101_Calculator.UnitTests.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/root/lab/ICT3101_Calculator.UnitTests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Warbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "netcoreapp5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "netcoreapp5.0",
             "projectReferences": {
-              "C:\\Users\\Warbe\\OneDrive\\src\\ict3101\\lab02\\ICT3101_Calculator\\ICT3101_Calculator.csproj": {
-                "projectPath": "C:\\Users\\Warbe\\OneDrive\\src\\ict3101\\lab02\\ICT3101_Calculator\\ICT3101_Calculator.csproj"
+              "/root/lab/ICT3101_Calculator/ICT3101_Calculator.csproj": {
+                "projectPath": "/root/lab/ICT3101_Calculator/ICT3101_Calculator.csproj"
               }
             }
           }
@@ -41,8 +39,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "netcoreapp5.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -67,10 +65,6 @@
             "Selenium.WebDriver": {
               "target": "Package",
               "version": "[4.0.1, )"
-            },
-            "Selenium.WebDriver.MSEdgeDriver": {
-              "target": "Package",
-              "version": "[95.0.1020.30, )"
             },
             "SpecFlow": {
               "target": "Package",
@@ -108,33 +102,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Warbe\\OneDrive\\src\\ict3101\\lab02\\ICT3101_Calculator\\ICT3101_Calculator.csproj": {
+    "/root/lab/ICT3101_Calculator/ICT3101_Calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Warbe\\OneDrive\\src\\ict3101\\lab02\\ICT3101_Calculator\\ICT3101_Calculator.csproj",
+        "projectUniqueName": "/root/lab/ICT3101_Calculator/ICT3101_Calculator.csproj",
         "projectName": "ICT3101_Calculator",
-        "projectPath": "C:\\Users\\Warbe\\OneDrive\\src\\ict3101\\lab02\\ICT3101_Calculator\\ICT3101_Calculator.csproj",
-        "packagesPath": "C:\\Users\\Warbe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Warbe\\OneDrive\\src\\ict3101\\lab02\\ICT3101_Calculator\\obj\\",
+        "projectPath": "/root/lab/ICT3101_Calculator/ICT3101_Calculator.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/root/lab/ICT3101_Calculator/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Warbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "netcoreapp5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "netcoreapp5.0",
             "projectReferences": {}
           }
         },
@@ -145,8 +137,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "netcoreapp5.0",
           "dependencies": {
             "Moq": {
               "target": "Package",
@@ -184,7 +176,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
         }
       }
     }

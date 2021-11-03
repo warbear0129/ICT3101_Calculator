@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
+    "net5.0": {
       "BoDi/1.5.0": {
         "type": "package",
         "compile": {
@@ -523,10 +523,10 @@
           "SpecFlow.Tools.MsBuild.Generation": "[3.9.22]"
         },
         "compile": {
-          "lib/netstandard2.0/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll": {}
+          "lib/net5.0/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll": {}
+          "lib/net5.0/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll": {}
         },
         "build": {
           "build/SpecFlow.NUnit.props": {},
@@ -6559,7 +6559,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
+    "net5.0": [
       "Moq >= 4.16.1",
       "SpecFlow >= 3.9.22",
       "SpecFlow.NUnit >= 3.9.22",
@@ -6568,31 +6568,29 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Warbe\\.nuget\\packages\\": {}
+    "/root/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Warbe\\OneDrive\\src\\ict3101\\lab02\\ICT3101_Calculator\\ICT3101_Calculator.csproj",
+      "projectUniqueName": "/root/lab/ICT3101_Calculator/ICT3101_Calculator.csproj",
       "projectName": "ICT3101_Calculator",
-      "projectPath": "C:\\Users\\Warbe\\OneDrive\\src\\ict3101\\lab02\\ICT3101_Calculator\\ICT3101_Calculator.csproj",
-      "packagesPath": "C:\\Users\\Warbe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Warbe\\OneDrive\\src\\ict3101\\lab02\\ICT3101_Calculator\\obj\\",
+      "projectPath": "/root/lab/ICT3101_Calculator/ICT3101_Calculator.csproj",
+      "packagesPath": "/root/.nuget/packages/",
+      "outputPath": "/root/lab/ICT3101_Calculator/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Warbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "netcoreapp5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "netcoreapp5.0",
           "projectReferences": {}
         }
       },
@@ -6603,8 +6601,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
+      "net5.0": {
+        "targetAlias": "netcoreapp5.0",
         "dependencies": {
           "Moq": {
             "target": "Package",
@@ -6642,7 +6640,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
       }
     }
   }

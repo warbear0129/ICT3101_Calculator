@@ -5,6 +5,7 @@ using OpenQA.Selenium.Firefox;
 namespace ICT3101_Calculator.UnitTests.Selenium_Tests
 {
     [TestFixture]
+    [Parallelizable]
     class Selenium_Firefox
     {
         private string _testURL = "https://www.google.com";
@@ -15,7 +16,7 @@ namespace ICT3101_Calculator.UnitTests.Selenium_Tests
             // Setup local Selenium WebDriver
             FirefoxOptions option = new FirefoxOptions();
             option.AddArgument("--headless");
-            _driver = new FirefoxDriver(@"C:\Users\Warbe\OneDrive\src\ict3101\lab02\ICT3101_Calculator.UnitTests\bin\Debug\netcoreapp3.1\", option);
+            _driver = new FirefoxDriver(@"/usr/bin/", option);
         }
 
         [Test]

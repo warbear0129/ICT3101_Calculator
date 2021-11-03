@@ -35,8 +35,8 @@ namespace ICT3101_Calculator.UnitTests.Features
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "UsingCalculatorBasicReliability", "In order to calculate the Basic Musa model\'s failures/intensities\r\nAs a Software " +
-                    "Quality Metric enthusiast", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "UsingCalculatorBasicReliability", "In order to calculate the Basic Musa model\'s failures/intensities\nAs a Software Q" +
+                    "uality Metric enthusiast", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         

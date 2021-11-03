@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
+    "net5.0": {
       "BoDi/1.5.0": {
         "type": "package",
         "compile": {
@@ -739,16 +739,10 @@
           "Newtonsoft.Json": "12.0.3"
         },
         "compile": {
-          "lib/netstandard2.1/WebDriver.dll": {}
+          "lib/net5.0/WebDriver.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.1/WebDriver.dll": {}
-        }
-      },
-      "Selenium.WebDriver.MSEdgeDriver/95.0.1020.30": {
-        "type": "package",
-        "build": {
-          "build/Selenium.WebDriver.MSEdgeDriver.targets": {}
+          "lib/net5.0/WebDriver.dll": {}
         }
       },
       "SpecFlow/3.9.22": {
@@ -790,10 +784,10 @@
           "SpecFlow.Tools.MsBuild.Generation": "[3.9.22]"
         },
         "compile": {
-          "lib/netstandard2.0/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll": {}
+          "lib/net5.0/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll": {}
+          "lib/net5.0/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll": {}
         },
         "build": {
           "build/SpecFlow.NUnit.props": {},
@@ -2004,7 +1998,7 @@
       },
       "ICT3101_Calculator/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
+        "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Moq": "4.16.1",
           "SpecFlow": "3.9.22",
@@ -3432,22 +3426,6 @@
         "lib/netstandard2.1/WebDriver.dll",
         "selenium.webdriver.4.0.1.nupkg.sha512",
         "selenium.webdriver.nuspec"
-      ]
-    },
-    "Selenium.WebDriver.MSEdgeDriver/95.0.1020.30": {
-      "sha512": "NZx49iiaV9b8inNlKwaE0Ue+MwmU9+YdODzvKIvakn7W7L3z82tRwnEaOgDLaULwFx2h2XtF8mAe44moS4VzwA==",
-      "type": "package",
-      "path": "selenium.webdriver.msedgedriver/95.0.1020.30",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/Selenium.WebDriver.MSEdgeDriver.targets",
-        "driver/mac64/msedgedriver",
-        "driver/win32/msedgedriver.exe",
-        "driver/win64/msedgedriver.exe",
-        "license/license.txt",
-        "selenium.webdriver.msedgedriver.95.0.1020.30.nupkg.sha512",
-        "selenium.webdriver.msedgedriver.nuspec"
       ]
     },
     "SpecFlow/3.9.22": {
@@ -7202,7 +7180,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
+    "net5.0": [
       "ICT3101_Calculator >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
       "Moq >= 4.16.1",
@@ -7210,7 +7188,6 @@
       "NUnit3TestAdapter >= 3.17.0",
       "Selenium.Firefox.WebDriver >= 0.27.0",
       "Selenium.WebDriver >= 4.0.1",
-      "Selenium.WebDriver.MSEdgeDriver >= 95.0.1020.30",
       "SpecFlow >= 3.9.22",
       "SpecFlow.NUnit >= 3.9.22",
       "SpecFlow.NUnit.Runners >= 3.9.22",
@@ -7219,34 +7196,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Warbe\\.nuget\\packages\\": {}
+    "/root/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Warbe\\OneDrive\\src\\ict3101\\lab02\\ICT3101_Calculator.UnitTests\\ICT3101_Calculator.UnitTests.csproj",
+      "projectUniqueName": "/root/lab/ICT3101_Calculator.UnitTests/ICT3101_Calculator.UnitTests.csproj",
       "projectName": "ICT3101_Calculator.UnitTests",
-      "projectPath": "C:\\Users\\Warbe\\OneDrive\\src\\ict3101\\lab02\\ICT3101_Calculator.UnitTests\\ICT3101_Calculator.UnitTests.csproj",
-      "packagesPath": "C:\\Users\\Warbe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Warbe\\OneDrive\\src\\ict3101\\lab02\\ICT3101_Calculator.UnitTests\\obj\\",
+      "projectPath": "/root/lab/ICT3101_Calculator.UnitTests/ICT3101_Calculator.UnitTests.csproj",
+      "packagesPath": "/root/.nuget/packages/",
+      "outputPath": "/root/lab/ICT3101_Calculator.UnitTests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Warbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "netcoreapp5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "netcoreapp5.0",
           "projectReferences": {
-            "C:\\Users\\Warbe\\OneDrive\\src\\ict3101\\lab02\\ICT3101_Calculator\\ICT3101_Calculator.csproj": {
-              "projectPath": "C:\\Users\\Warbe\\OneDrive\\src\\ict3101\\lab02\\ICT3101_Calculator\\ICT3101_Calculator.csproj"
+            "/root/lab/ICT3101_Calculator/ICT3101_Calculator.csproj": {
+              "projectPath": "/root/lab/ICT3101_Calculator/ICT3101_Calculator.csproj"
             }
           }
         }
@@ -7258,8 +7233,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
+      "net5.0": {
+        "targetAlias": "netcoreapp5.0",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
@@ -7284,10 +7259,6 @@
           "Selenium.WebDriver": {
             "target": "Package",
             "version": "[4.0.1, )"
-          },
-          "Selenium.WebDriver.MSEdgeDriver": {
-            "target": "Package",
-            "version": "[95.0.1020.30, )"
           },
           "SpecFlow": {
             "target": "Package",
@@ -7325,7 +7296,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
       }
     }
   }

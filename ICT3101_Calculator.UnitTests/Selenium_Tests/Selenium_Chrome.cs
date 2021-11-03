@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Text;
 using NUnit.Framework;
 using OpenQA.Selenium;
-using OpenQA.Selenium.Edge;
 using OpenQA.Selenium.Chrome;
 
 namespace ICT3101_Calculator.UnitTests.Selenium_Tests
@@ -21,7 +20,8 @@ namespace ICT3101_Calculator.UnitTests.Selenium_Tests
             // Setup local Selenium WebDriver
             ChromeOptions option = new ChromeOptions();
             option.AddArgument("--headless");
-            _driver = new ChromeDriver(option);
+            option.AddArgument("--no-sandbox");
+            _driver = new ChromeDriver(@"/usr/bin/", option);
         }
         [Test]
         public void GoogleAdd_WhenAdding2and2_ResultEquals4()
