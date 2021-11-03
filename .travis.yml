@@ -3,15 +3,17 @@ mono: none
 dotnet: 5.0
 solution: ICT3101_Calculator.sln
 addons:
- chrome: stable
- firefox: latest
+  chrome: stable
+  firefox: latest
+
 before_install:
-- sudo apt-get update
-- wget https://chromedriver.storage.googleapis.com/95.0.4638.17/chromedriver_linux64.zip
-- unzip chromedriver_linux64.zip- unzip chromedriver_linux64.zip
-- sudo cp chromedriver /usr/bin
-- wget https://github.com/mozilla/geckodriver/releases/download/v0.30.0/geckodriver-v0.30.0-linux64.tar.gztar -xzf geckodriver-v0.27.0-linux64.tar.gz
-- sudo cp geckodriver /usr/bin
+  - sudo apt-get update
+  - wget https://chromedriver.storage.googleapis.com/95.0.4638.17/chromedriver_linux64.zip
+  - unzip chromedriver_linux64.zip
+  - sudo cp chromedriver /usr/bin
+  - wget https://github.com/mozilla/geckodriver/releases/download/v0.30.0/geckodriver-v0.30.0-linux64.tar.gz
+  - tar -xzf geckodriver-v0.30.0-linux64.tar.gz
+  - sudo cp geckodriver /usr/bin
 script:
- - dotnet restore #this will restore are settings and get all our NuGet packages
- - dotnet test #this will run all our tests
+  - dotnet restore #this will restore are settings and get all our NuGet packages
+  - dotnet test #this will run all our tests
